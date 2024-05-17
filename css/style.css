@@ -172,3 +172,34 @@
       transform: rotate(360deg);
     }
   }
+
+   /* party images */
+   .party-images{
+    margin: 20px 100px;
+  }
+  .img-heading{
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(25, 181, 243);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 35px;
+    color: #074173;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
