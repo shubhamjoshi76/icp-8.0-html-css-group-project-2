@@ -203,3 +203,19 @@
     vertical-align: middle;
     width: 100%;
   }
+
+  /*party video clips*/
+  .party-video{
+    margin: 30px;
+    margin-bottom: 100px;
+  }
+ .party-clips{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+ }
+ .fun-video{
+    width: 40%;
+    box-shadow: rgba(0.30, 0.30, 0.30, 0.30) 5px 5px 20px;
+    border-radius: 20%;
+}
