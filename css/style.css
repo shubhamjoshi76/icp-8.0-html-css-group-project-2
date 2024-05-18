@@ -206,7 +206,7 @@
   }
 .column img:hover{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-}
+ }
 
   /*party video clips*/
   .party-video{
@@ -222,4 +222,195 @@
     width: 40%;
     box-shadow: rgba(0.30, 0.30, 0.30, 0.30) 5px 5px 20px;
     border-radius: 3%;
+}
+
+/* bottom-navbar */
+.bottom-navigation-bar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #074173;
+    display: none;
+}
+.bottom-menu-icon{
+    background-color: #ECF2FF;
+    margin: 5px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.bottom-menu-icon:hover{
+    background-color: #4D869C;
+}
+.bottom-menu-icon-active{
+    background-color: #4D869C;
+}
+
+/*Media Query*/
+/* Small Devices  */
+@media screen and (max-width: 600px){
+   /* main-content */
+    .head-items{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .container{
+        display: flex;
+        max-width: 53vh;
+    }
+    .heading{
+        font-size: 25px;
+        text-align: center;
+    }
+    .sub-heading{
+       font-size: 10px;
+       text-align: center;
+    }
+    .head-video{
+        width: 230px;
+        border-radius: 5px;
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 0;
+    }
+    .head-img-1{
+        height: 190px;
+        width: 140px;
+        border-radius: 5px;
+        margin-left: 85px;
+    }
+    .head-img-2{
+        height: 190px;
+        width: 140px;
+        border-radius: 5px;
+        margin-left: 85px;
+    }
+    .content-text{
+        font-size: 15px;
+        display: table-caption;
+        margin-left: 95px;
+    }
+
+    /*welcome message*/
+.welcome-message {
+    width: 50%;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .message-cardBox {
+    width: 260px;
+    height: 500px;
+  }
+  .message-card .message-content h3 {
+    font-size: 12px;
+    padding-bottom: 18px;
+  }
+  .message-card .message-content p {
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 13px;
+    font-style: italic;
+  }
+
+  /* party images */
+  .img-heading{
+    font-size: 30px;
+    float: none;
+  }
+  .column {
+    flex: 100%;
+    max-width: 100%;
+    margin-left: 37px;
+  }
+  .column img {
+    vertical-align: baseline;
+    width: 180px;
+    padding-bottom: 15px;
+    float: inline-end;
+    border-radius: 0;
+  }
+
+/*party video clips*/
+ .party-clips{
+    display: block;
+    margin-top: 20px;
+ }
+ .fun-video{
+    width: 90%;
+    margin-right: 3px;
+    padding-bottom: 10px;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+ /* bottom-navbar */
+ .sidebar{
+    display: none;
+}
+.bottom-navigation-bar{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 5px;
+}
+.bottom-menu-icon{
+  height: 30px;
+  margin-right: 20px;
+  display: block;
+  margin-left: 10px;
+}
+}
+
+
+ /* Normal Devices  */
+@media screen and (min-width: 601px) and (max-width: 768px){
+   /* main-content */
+
+    /* bottom-navbar */
+    .sidebar{
+        display: none;
+    }
+    .bottom-navigation-bar{
+        display: flex;
+        justify-content: space-around;
+    }
+
+      /* party images */
+    .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+}
+
+/* Tablets Devices  */
+@media screen and (min-width: 769px) and (max-width: 992px){
+    /* main-content */
+
+    /* bottom-navbar */
+    .sidebar{
+        display: none;
+    }
+    .bottom-navigation-bar{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+/* Large Devices  */
+@media screen and (min-width: 993px) and (max-width: 1200px){
+   /* main-content */
+
+    /* bottom-navbar */
+    .sidebar{
+        display: none;
+    }
+    .bottom-navigation-bar{
+        display: flex;
+        justify-content: space-around;
+    }
 }
