@@ -164,6 +164,79 @@ main {
 }
 
 
+/* music-dance content */
+.entertainment-content{
+    margin: 40px 40px;
+}
+.entertainment-heading{
+    text-align: center;
+    font-family: 'poppins',sans-serif;
+    color: #074173;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-shadow: 0 0 4px #FFB5DA;
+}
+.entertainment-subpoint{
+    font-family: 'poppins',sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+.entertainment-text {
+    margin-left: 40px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: 'poppins',sans-serif;
+}
+.disc{
+    margin-left: 60px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'poppins',sans-serif;
+}
+
+/* media query */
+
+/* Small Devices  */
+@media screen and (max-width: 600px){
+    .container{
+        display: flex;
+    }
+   
+     /* bottom-navbar */
+    .sidebar{
+        display: none;
+    }
+    .bottom-navigation-bar{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px 5px;
+        justify-content: center;
+    }
+    .bottom-menu-icon{
+      height: 30px;
+      margin-right: 20px;
+      display: block;
+      margin-left: 10px;
+    }
+}
+
+ /* Normal Devices  */
+@media screen and (min-width: 601px) and (max-width: 768px){
+}
+
+/* Tablets Devices  */
+@media screen and (min-width: 769px) and (max-width: 992px){
+}
+
+/* Large Devices  */
+@media screen and (min-width: 993px) and (max-width: 1200px){
+}
+
+
 /* bottom-navbar
 .bottom-navigation-bar{
     position: fixed;
