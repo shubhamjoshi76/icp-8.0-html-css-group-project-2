@@ -202,26 +202,7 @@ main {
 
 /* Small Devices  */
 @media screen and (max-width: 600px){
-    .container{
-        display: flex;
-    }
-   
-     /* bottom-navbar */
-    .sidebar{
-        display: none;
-    }
-    .bottom-navigation-bar{
-        display: flex;
-        flex-wrap: wrap;
-        padding: 5px 5px;
-        justify-content: center;
-    }
-    .bottom-menu-icon{
-      height: 30px;
-      margin-right: 20px;
-      display: block;
-      margin-left: 10px;
-    }
+
 }
 
  /* Normal Devices  */
