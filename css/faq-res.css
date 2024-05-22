@@ -1,0 +1,57 @@
+/* Normal Devices */
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .info-card {
+        flex-wrap: wrap;
+    }
+
+    .card1 {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .faq-heading {
+        margin-left: -10px;
+    }
+
+    .que-box {
+        margin-left: -50px;
+    }
+
+    .pool-rules-1 {
+        display: none;
+    }
+
+    .pool-rules-2 {
+        position: relative;
+        left: 10%;
+        top: 30px;
+    }
+}
+
+/* Tablets Devices */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .faq-heading {
+        margin-left: 55px;
+    }
+
+    .que-box {
+        margin-left: 20px;
+    }
+
+    .pool-rules-1 {
+
+        position: relative;
+        left: 30%;
+        top: 30px;
+    }
+
+    .pool-rules-2 {
+        position: relative;
+        left: 10%;
+        top: 30px;
+    }
+
+}
+
+/* Large Devices */
+@media screen and (min-width: 993px) and (max-width: 1200px) {}
