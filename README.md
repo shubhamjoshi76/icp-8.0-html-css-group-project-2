@@ -3,7 +3,15 @@
 
 Get ready to dive into a world of fun and excitement. Discover everything you need to know about the most anticipated pool party of the year!
 
----
+## Overview 🌟
+
+The Pool Party Website is a comprehensive platform designed to inform and engage visitors about an upcoming pool party event. It provides essential details, including event schedules, venue information, ticketing options, activities, and more. The website aims to create an exciting and user-friendly experience, ensuring attendees have all the information they need to enjoy the event to the fullest.
+
+
+![Project Splash-Fest](https://github.com/vaishnavishahakar/icp-8.0-html-css-group-project-2/assets/110184932/b13072d8-d43d-4113-b941-323b293d094f)
+
+
+## Detailed Description
 
 ## 🏠 **Home Page**
 
@@ -18,7 +26,7 @@ Get ready to dive into a world of fun and excitement. Discover everything you ne
 
 ---
 
-## ℹ️ **About Us**
+## ℹ️ **About Us** 💼
 
 - **Meet the Organizers:**  
   *Learn about the passionate team making it all happen.*
