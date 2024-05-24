@@ -70,14 +70,14 @@
     font-size: 30px;
 }
 .day-night{
-    color: #2c9cf0;
+    color:#074173;
     font-size: 20px;
     margin-top: 30px;
     font-weight: bolder;
     margin-left: 5px;
 }
 .find-party{
-    color:#2c9cf0 ;
+    color:#074173;
     font-size: 90px;
     font-family: sans-serif;
     font-weight: bold;
@@ -86,9 +86,12 @@
 .pool-img{
     width: 600px;
     margin-left: 305px;
-    margin-top: -120px;
+    margin-top: -125px;
     border-radius: 40px 0 40px 0;
     box-shadow: #ECF2FF 10px;
+    border-radius: 5px;
+    border: 1px rgb(238, 233, 233);
+    
 }
 .pool-info{
     margin-top: -150px;
@@ -96,15 +99,27 @@
     margin-left: 5px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 50px;
+    text-align: left;
 }
 .recommend-btn{
     border-radius: 20px;
-    border-color: #2c9cf0 ;
-    border: solid 3px #2c9cf0 ;
+    border-color: #074173;
+    border: solid 3px#074173 ;
     background-color: #eeeeee ;
     padding: 12px;
-    color: #2c9cf0 ;
+    color:#074173;
     font-weight: bold;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.choose-city{
+    color: #074173;
+  text-align: center;
+  margin-left: 280px;
+    margin-top: 150px;
+    font-size: 25px;
+
+
+
+
 }
