@@ -128,7 +128,6 @@
         position: absolute;
         inset: auto auto 30px 30px;
         margin: 0;
-
         transition: inset .3s .3s ease-out;
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 18px;

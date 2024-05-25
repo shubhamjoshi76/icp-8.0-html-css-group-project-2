@@ -134,3 +134,270 @@
     line-height: 25px;
     font-family: 'poppins', sans-serif;
 }
+
+.price-bottom-text{
+  margin: 10px 40px;
+  font-family: 'poppins', sans-serif;
+  margin-bottom: 10px;
+}
+.price-last-text{
+  margin: 10px 40px;
+  font-family: 'poppins', sans-serif;
+  margin-bottom: 10px;
+}
+.cardRow{
+  display: flex;
+}
+
+/* Main Ticket Style */
+.ticketContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10px;
+}
+.ticket{
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+}
+
+/* Ticket detail */
+.ticketTitle{
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 16px 4px;
+}
+hr{
+  width: 90%;
+  border: 1px solid #efefef;
+}
+.ticketDetail{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 4px 16px;
+}
+.ticketSubDetail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  padding: 12px 12px;
+}
+.ticketSubDetail .code{
+  margin-right: 12px;
+}
+
+/* Ticket Ripper */
+.ticketRip{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.circleLeft{
+  width: 12px;
+  height: 24px;
+  background-color: #CDE8E5;
+  border-radius: 0 12px 12px 0;
+}
+.ripLine{
+  width: 100%;
+  border-top: 3px solid #CDE8E5;
+  border-top-style: dashed ;
+}
+.circleRight{
+  width: 12px;
+  height: 24px;
+  background-color: #CDE8E5;
+  border-radius: 12px 0 0 12px;
+}
+
+/* bottom-navbar */
+.bottom-navigation-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #074173;
+  display: none;
+}
+
+.bottom-menu-icon {
+  background-color: #ECF2FF;
+  margin: 5px;
+  height: 25px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.bottom-menu-icon:hover {
+  background-color: #4D869C;
+}
+
+.bottom-menu-icon-active {
+  background-color: #4D869C;
+}
+
+/* media query */
+
+/* Small Devices  */
+@media screen and (max-width: 600px) {
+  .container {
+      display: flex;
+  }
+
+  .ticket-heading {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+  }
+
+  /* ticket-details */
+.ticket-details{
+  margin: 30px 20px;
+}
+.detail-text{
+  text-align: center;
+  font-family: 'poppins', sans-serif;
+  margin-top: 40px;
+}
+.price{
+  font-size: 21px;
+        font-weight: bold;
+        margin: 18px 10px;
+        font-family: 'poppins', sans-serif;
+}
+.price-text{
+  margin: 0px 10px;
+  font-family: 'poppins', sans-serif;
+  margin-bottom: 10px;
+
+}
+.number{
+  font-size: 15px;
+  line-height: 30px;
+  font-family: 'poppins', sans-serif;
+  margin-left: 26px;
+  padding-top: 5px;
+}
+.number-bold{
+  font-weight: bold;
+  font-size: 16px;
+}
+.disc{
+  margin-left: 17px;
+  margin-bottom: 22px;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: 'poppins', sans-serif;
+}
+.list{
+  margin-left: 32px;
+        margin-bottom: 25px;
+        font-size: 15px;
+        line-height: 25px;
+        font-family: 'poppins', sans-serif;
+}
+
+.price-bottom-text{
+  margin: 10px 10px;
+  font-family: 'poppins', sans-serif;
+  margin-bottom: 10px;
+}
+
+.price-last-text{
+  margin: 0px 10px;
+  font-family: 'poppins', sans-serif;
+  padding-bottom: 90px;
+}
+   /* cards */
+   .cardRow {
+    display: grid;
+    justify-content: center;
+    padding: 0px;
+}
+
+/* Main Ticket Style */
+.ticketContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 20px;
+}
+.ticket{
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+}
+
+/* Ticket detail */
+.ticketTitle{
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 16px 4px;
+}
+hr{
+  width: 90%;
+  border: 1px solid #efefef;
+}
+.ticketDetail{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 4px 16px;
+}
+.ticketSubDetail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  padding: 12px 12px;
+}
+.ticketSubDetail .code{
+  margin-right: 12px;
+}
+
+/* Ticket Ripper */
+.ticketRip{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.circleLeft{
+  width: 12px;
+  height: 24px;
+  background-color: #CDE8E5;
+  border-radius: 0 12px 12px 0;
+}
+.ripLine{
+  width: 100%;
+  border-top: 3px solid #CDE8E5;
+  border-top-style: dashed ;
+}
+.circleRight{
+  width: 12px;
+  height: 24px;
+  background-color: #CDE8E5;
+  border-radius: 12px 0 0 12px;
+}
+
+   /* bottom-navbar */
+   .sidebar {
+    display: none;
+}
+
+.bottom-navigation-bar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 5px;
+    justify-content: center;
+}
+
+.bottom-menu-icon {
+    height: 30px;
+    margin-right: 20px;
+    display: block;
+    margin-left: 10px;
+}
+}
+
+
