@@ -293,22 +293,22 @@
 }
 /* Large Devices  */
 @media screen and (min-width: 993px) and (max-width: 1286px){
-    .day-night{
+.day-night{
         color:#074173;
         font-size: 18px;
         margin-top: 30px;
         font-weight: bolder;
         margin-left: 95px;
-    }
-    .find-party{
+}
+.find-party{
         color:#074173;
         font-size: 85px;
         font-family: sans-serif;
         font-weight: bold;
         margin-left: 85px;
     
-    }
-    .pool-img{
+}
+.pool-img{
         width: 460px;
         margin-left: 315px;
         margin-top: -140px;
@@ -317,16 +317,16 @@
         border-radius: 5px;
         border: 1px rgb(238, 233, 233);
         
-    } 
-    .pool-info{
+} 
+.pool-info{
         margin-top: -20px;
         font-size: 14px;
         margin-left: 90px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: 50px;
         text-align: left;
-    }
-    .recommend-btn{
+}
+.recommend-btn{
         border-radius: 20px;
         border-color: #074173;
         border: solid 3px#074173 ;
@@ -336,8 +336,8 @@
         font-weight: bold;
         margin-left: 100px;
         margin-top: 40px;
-    }
-    .banglore{
+}
+.banglore{
         margin-top: -150px;
         color: black;
         font-weight: bolder;
@@ -346,18 +346,17 @@
         color: black;
         text-shadow: #e04b19;
       
-    }
-    .delhi{
+}
+.delhi{
         margin-top:-60px;
         color: black;
         font-weight: bolder;
         font-size: 40px;
         margin-left: 550px;
         color: black;
-        text-shadow: #e04b19;
-       
-    }
-    .goa{
+        text-shadow: #e04b19;       
+}
+.goa{
         margin-top:-60px;
         color: black;
         font-weight: bolder;
@@ -365,20 +364,20 @@
         margin-left: 980px;
         color: black;
         text-shadow: #e04b19;  
-    } 
-    .city-img{
+} 
+.city-img{
         display: flex;
         height: 200px;
         width: 200px;
         margin-top: 50px;
         margin-left: 100px;
 
-    }
-    .city-banglore{
+}
+.city-banglore{
         height: 250px;
         width: 335px;
-    }
-    .city-delhi{
+}
+.city-delhi{
         height: 250px;
         width: 330px;  
 }
