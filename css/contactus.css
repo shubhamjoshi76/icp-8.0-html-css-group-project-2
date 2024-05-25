@@ -137,7 +137,8 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: #4D869C;
 }
 
